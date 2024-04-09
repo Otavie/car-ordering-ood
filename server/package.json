@@ -4,11 +4,13 @@
   "description": "A backend app for car ordering services",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Otavie Okuoyo",
   "license": "MIT",
   "dependencies": {
-    "ws": "^8.16.0"
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
   }
 }
